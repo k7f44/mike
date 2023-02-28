@@ -21,3 +21,20 @@ print (min)
 
 sr=df.mean()
 print (sr)
+
+sum_list= sum(ages)
+lst_ages=sum_list/len(ages)
+print(lst_ages)
+
+sum_list_2= sum(heights)
+lst_ages_2=sum_list_2/len(heights)
+print(lst_ages_2)
+
+sum_list_3= sum(weights)
+lst_ages_3=sum_list_3/len(weights)
+print(lst_ages_3)
+
+print ('mediana')
+print(df['ages'].median()) 
+print(df['heights'].median()) 
+print(df['weights'].median()) 
